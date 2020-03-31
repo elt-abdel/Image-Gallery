@@ -10,6 +10,7 @@ for (let i = 1; i < 6; i++) {
   newImage.setAttribute("src", "images/pic" + i + ".jpg");
   thumbBar.appendChild(newImage);
 
+  // this assignes the image to the displayed immage
   newImage.onclick = function() {
     onclickFunction();
   };
