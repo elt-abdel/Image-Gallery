@@ -31,7 +31,6 @@ function onClickBtn() {
     btn.setAttribute("class", "light");
     btn.textContent = "Lighten";
     overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-    console.log(btn.className);
   } else {
     btn.setAttribute("class", "dark");
     btn.textContent = "Darken";
