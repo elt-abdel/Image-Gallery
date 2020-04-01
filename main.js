@@ -4,7 +4,7 @@ const thumbBar = document.querySelector(".thumb-bar");
 const btn = document.querySelector("button");
 const overlay = document.querySelector(".overlay");
 
-var btnAttribute = btn.getAttribute('class');
+const btnAttribute = btn.getAttribute("class");
 
 /* Looping through images */
 for (let i = 1; i < 6; i++) {
@@ -29,9 +29,10 @@ btn.onclick = function() {
 };
 
 function onclickBtn() {
-  if (btnAttribute == 'dark'){
+  if (btnAttribute == "dark") {
     btn.setAttribute("class", "light");
     btn.textContent = "Lighten";
-    overlay.style.backgroundColor = (0,0,0,0.5);
+    overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
   }
+  console.log(btnAttribute);
 }
