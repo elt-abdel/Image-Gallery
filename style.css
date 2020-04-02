@@ -4,6 +4,11 @@ h1 {
 }
 
 body {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  background: #eee;
   display: flex;
   flex-direction: column;
   justify-content: center;
